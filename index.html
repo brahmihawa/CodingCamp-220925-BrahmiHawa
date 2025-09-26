@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Advertising Company - Portfolio</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <!-- Navbar -->
+  <header>
+    <div class="logo">🎨 G4 Advertising</div>
+    <nav id="navbar">
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#profile">Our Profile</a></li>
+        <li><a href="#portfolio">Portfolio</a></li>
+        <li><a href="#message">Message Us</a></li>
+      </ul>
+    </nav>
+    <div class="menu-toggle" id="menu-toggle">☰</div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="hero-content">
+      <h1>Kami Membawa Brand Anda ke Level Berikutnya 🚀</h1>
+      <p>
+        G4 Advertising Company adalah mitra kreatif Anda dalam membangun identitas brand, 
+        meningkatkan engagement, dan menciptakan kampanye digital yang berdampak.
+      </p>
+      <a href="#portfolio" class="btn-primary">Lihat Portfolio</a>
+    </div>
+    <div class="hero-img">
+      <img src="https://picsum.photos/600/300" alt="Creative Advertising">
+    </div>
+  </section>
+
+  <!-- Our Profile -->
+  <section class="profile" id="profile">
+    <h2>Our Profile</h2>
+    <div class="profile-container">
+      <img src="https://picsum.photos/350/250" alt="Company Team">
+      <div class="profile-text">
+        <p>
+          <strong>G4 Glow – Growth – Goal – Glory Advertising Company</strong> adalah agensi kreatif yang berdiri sejak 2020, 
+          berfokus pada strategi pemasaran modern, desain grafis inovatif, produksi video iklan, 
+          dan kampanye media sosial. 
+        </p>
+        <p>
+          Dengan tim profesional muda yang penuh ide segar, kami telah membantu lebih dari 
+          <b>100 brand</b> lokal maupun nasional untuk berkembang pesat dan dikenal luas.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Portfolio -->
+  <section class="portfolio" id="portfolio">
+    <h2>Portfolio</h2>
+    <p class="subtitle">Beberapa karya kreatif yang pernah kami buat untuk klien kami.</p>
+    <div class="portfolio-grid">
+      <div class="portfolio-item">
+        <img src="https://picsum.photos/300/200?1" alt="Social Media Campaign">
+        <h3>📱 Kampanye Media Sosial</h3>
+        <p>Meningkatkan engagement hingga 3x lipat dengan strategi konten kreatif.</p>
+      </div>
+      <div class="portfolio-item">
+        <img src="https://picsum.photos/300/200?2" alt="Video Ads">
+        <h3>🎬 Produksi Video Iklan</h3>
+        <p>Membuat video yang menarik perhatian dan meningkatkan brand awareness.</p>
+      </div>
+      <div class="portfolio-item">
+        <img src="https://picsum.photos/300/200?3" alt="Graphic Design">
+        <h3>🖼️ Desain Grafis Kreatif</h3>
+        <p>Visual branding modern yang membuat brand Anda tampil lebih profesional.</p>
+      </div>
+      <div class="portfolio-item">
+        <img src="https://picsum.photos/300/200?4" alt="Digital Ads">
+        <h3>🌐 Website & Digital Ads</h3>
+        <p>Membantu brand masuk ke dunia digital dengan strategi iklan online yang tepat.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Message Us -->
+  <section class="message" id="message">
+    <h2>Message Us</h2>
+    <div class="form-container">
+      <!-- Form -->
+      <form id="contactForm">
+        <label>Nama:</label>
+        <input type="text" id="nama" required>
+        
+        <label>Tanggal Lahir:</label>
+        <input type="date" id="tanggal" required>
+        
+        <label>Jenis Kelamin:</label>
+        <div class="gender">
+          <input type="radio" name="gender" value="Laki-laki" required> Laki-laki
+          <input type="radio" name="gender" value="Perempuan"> Perempuan
+        </div>
+        
+        <label>Pesan:</label>
+        <textarea id="pesan" required></textarea>
+        
+        <button type="submit" class="btn-primary">Submit</button>
+      </form>
+
+      <!-- Output -->
+      <div class="output" id="output">
+        <p><strong>Current Time:</strong> <span id="time"></span></p>
+        <p>Hasil form akan tampil di sini setelah Anda submit ✅</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="footer-container">
+      <div class="footer-about">
+        <h3>🎨 G4 AdvertisingCo</h3>
+        <p>Kami adalah mitra kreatif Anda dalam membangun brand dengan strategi modern & inovatif.
+        Membuat Brand-mu Bersinar, Bertumbuh, dan Berjaya.</p>
+      </div>
+      <div class="footer-links">
+        <h4>Quick Links</h4>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#profile">Our Profile</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#message">Message Us</a></li>
+        </ul>
+      </div>
+      <div class="footer-contact">
+        <h4>Contact Us</h4>
+        <p>Email: info@advertisingco.com</p>
+        <p>Telp: +62 812 3456 7890</p>
+        <div class="social-icons">
+          <a href="#">🌐</a>
+          <a href="#">📘</a>
+          <a href="#">📸</a>
+          <a href="#">💼</a>
+        </div>
+      </div>
+    </div>
+    <p class="footer-bottom">Created with ❤️ by G4 Advertising Company © 2025</p>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
